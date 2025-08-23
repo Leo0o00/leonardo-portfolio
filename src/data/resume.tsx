@@ -12,11 +12,13 @@ export const DATA = {
   summary:
     "Since I started at university to collaborate in some application development projects of my own career I realised how exciting this world of software development is. [I am an Electrical Engineering graduate](/#education) but that hasn't stopped me from venturing into web development allowing me to [create scalable and easily maintainable web applications](/#projects), following best practices and layered architecture.",
   avatarUrl: "https://avatars.githubusercontent.com/u/120134592?s=400&v=4",
+  employmentStatus: "Open To Work",
   skills: [
     "React",
     "Astro",
     "Vue.js",
     "Express",
+    "Hono.js",
     "Next.js",
     "Nest.js",
     "Typescript",
@@ -25,6 +27,8 @@ export const DATA = {
     "Flask",
     "Django",
     "FastAPI",
+    "Prisma",
+    "Drizzle ORM",
     "Postgres",
     "MySQL",
     "MongoDB",
@@ -115,13 +119,8 @@ export const DATA = {
       href: "https://dev-books-store-omega.vercel.app/",
       dates: "Sep 2024",
       active: true,
-      description:
-        "Simple app developed with [Astro 5](https://astro.build/)",
-      technologies: [
-        "Astro",
-        "TailwindCSS",
-        "Typescript",
-      ],
+      description: "Simple app developed with [Astro 5](https://astro.build/)",
+      technologies: ["Astro", "TailwindCSS", "Typescript"],
       links: [
         {
           type: "Website",
@@ -135,8 +134,7 @@ export const DATA = {
         },
       ],
       image: "/DevBooksStore.webp",
-      video:
-        "",
+      video: "",
     },
     {
       title: "Weather Wise",
@@ -145,12 +143,7 @@ export const DATA = {
       active: true,
       description:
         "Web app that shows the status of weather conditions in the selected city.",
-      technologies: [
-        "React",
-        "TailwindCSS",
-        "Next.js",
-        "Typescript",
-      ],
+      technologies: ["React", "TailwindCSS", "Next.js", "Typescript"],
       links: [
         {
           type: "Website",
@@ -164,8 +157,36 @@ export const DATA = {
         },
       ],
       image: "/WeatherWise.webp",
-      video:
-        "",
+      video: "",
+    },
+    {
+      title: "Saldo - Finance App",
+      href: "https://saldo-bw6d.vercel.app/",
+      dates: "Aug 2025",
+      active: true,
+      description:
+        "A tool that allows you to manage your finances in a simple and intuitive way and even import your records from a CSV file.",
+      technologies: [
+        "TailwindCSS",
+        "Next.js",
+        "Typescript",
+        "Honojs",
+        "Drizzle",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://saldo-bw6d.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source Code",
+          href: "https://github.com/Leo0o00/Saldo",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/saldo-web-preview.webp",
+      video: "",
     },
   ],
   // hackathons: [
