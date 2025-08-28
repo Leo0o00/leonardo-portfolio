@@ -115,6 +115,35 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "Saldo - Finance App",
+      href: "https://saldo-bw6d.vercel.app/",
+      dates: "Aug 2025",
+      active: true,
+      description:
+        "A tool that allows you to manage your finances in a simple and intuitive way and even import your records from a CSV file.",
+      technologies: [
+        "TailwindCSS",
+        "Next.js",
+        "Typescript",
+        "Honojs",
+        "Drizzle",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://saldo-bw6d.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source Code",
+          href: "https://github.com/Leo0o00/Saldo",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/saldo-web-preview.webp",
+      video: "",
+    },
+    {
       title: "Dev Books Store",
       href: "https://dev-books-store-omega.vercel.app/",
       dates: "Sep 2024",
@@ -157,35 +186,6 @@ export const DATA = {
         },
       ],
       image: "/WeatherWise.webp",
-      video: "",
-    },
-    {
-      title: "Saldo - Finance App",
-      href: "https://saldo-bw6d.vercel.app/",
-      dates: "Aug 2025",
-      active: true,
-      description:
-        "A tool that allows you to manage your finances in a simple and intuitive way and even import your records from a CSV file.",
-      technologies: [
-        "TailwindCSS",
-        "Next.js",
-        "Typescript",
-        "Honojs",
-        "Drizzle",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://saldo-bw6d.vercel.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source Code",
-          href: "https://github.com/Leo0o00/Saldo",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/saldo-web-preview.webp",
       video: "",
     },
   ],
