@@ -11,9 +11,16 @@ export const DATA = {
     "Junior Backend Developer with a passion for building web applications. Currently seeking opportunities to further develop my skills in a professional environment.",
   summary:
     "Since I started at university to collaborate in some application development projects of my own career I realised how exciting this world of software development is. [I am an Electrical Engineering graduate](/#education) but that hasn't stopped me from venturing into web development allowing me to [create scalable and easily maintainable web applications](/#projects), following best practices and layered architecture.",
+  // GitHub Profile Photo
   avatarUrl: "https://avatars.githubusercontent.com/u/120134592?s=400&v=4",
+  // Linkedin Profile Photo
+  // avatarUrl:
+  //   "https://media.licdn.com/dms/image/v2/D4E03AQHgY6kSU6QmXw/profile-displayphoto-shrink_800_800/B4EZT_5ZB4HUAc-/0/1739460023295?e=1759363200&v=beta&t=SiQsXtrNokgtQv55SGVzPTMR3pM7itgXltlOPGzcGHc",
+  // avatarUrl:
+  //   "https://media.licdn.com/dms/image/v2/D4E03AQHgY6kSU6QmXw/profile-displayphoto-shrink_200_200/B4EZT_5ZB4HUAY-/0/1739460023270?e=1759363200&v=beta&t=Apn1BNJawhIZiNXDfpvsQTI_0W5yhCaP4w-K3a3ZcpA",
   employmentStatus: "Open To Work",
   skills: [
+    "AWS",
     "React",
     "Astro",
     "Vue.js",
@@ -35,14 +42,17 @@ export const DATA = {
     "SQL Server",
     "Docker",
     "Java",
+    "SpringBoot",
     "C#",
+    ".NET",
     "Entity Framework",
-    "Restful",
+    "REST",
     "GraphQL",
     "Websocket",
     "TailwindCSS",
     "Handlebars",
     "Git/Github",
+    "RabbitMQ",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -98,7 +108,7 @@ export const DATA = {
       title: "Electrical Engineer - FullStack Developer",
       logoUrl: "/INRH.png",
       start: "Dec 2023",
-      end: null,
+      end: "Dec 2025",
       description:
         "•	Developing an interactive web application that enables project management from design to implementation. This includes materials management and compliance reporting.\n •	Project management: Create and manage projects, assign tasks, and upload and view technical documents such as electrical drawings and specifications.\n •	Materials and cost management: Allows for materials inventory, cost estimation and tracking of material orders.\n •	Regulatory and compliance: Generate compliance reports and checklists that guide engineers to comply with regulations.\n •	Dashboard and reporting: Display a dashboard with key metrics and graphs, generate periodic or on - demand reports that summarise project status.",
     },
@@ -114,6 +124,37 @@ export const DATA = {
     },
   ],
   projects: [
+    {
+      title: "RentiFul",
+      href: "https://github.com/Leo0o00/RentiFul",
+      dates: "Apr 2026",
+      active: true,
+      description:
+        "Full-stack rental management platform for discovering properties, submitting rental applications, and managing the relationship between tenants and property managers.",
+      technologies: [
+        "TailwindCSS",
+        "Next.js",
+        "Typescript",
+        "AWS",
+        ".NET",
+        "Entity Framework",
+        "RabbitMQ",
+      ],
+      links: [
+        // {
+        //   type: "Website",
+        //   href: "https://saldo-bw6d.vercel.app/",
+        //   icon: <Icons.globe className="size-3" />,
+        // },
+        {
+          type: "Source Code",
+          href: "https://github.com/Leo0o00/RentiFul",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/rentiful-web-preview.webp",
+      video: "",
+    },
     {
       title: "Saldo - Finance App",
       href: "https://saldo-bw6d.vercel.app/",
