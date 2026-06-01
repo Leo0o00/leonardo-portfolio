@@ -125,6 +125,37 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "Echo",
+      href: "https://github.com/Leo0o00/echo",
+      dates: "Jun 2026",
+      active: true,
+      description: "🤖AI powered B2B customer support platform",
+      technologies: [
+        "TailwindCSS",
+        "Next.js",
+        "Typescript",
+        "AWS",
+        "Convex",
+        "VAPI",
+        "Google Gemini",
+        "Jotai",
+      ],
+      links: [
+        // {
+        //   type: "Website",
+        //   href: "https://saldo-bw6d.vercel.app/",
+        //   icon: <Icons.globe className="size-3" />,
+        // },
+        {
+          type: "Source Code",
+          href: "https://github.com/Leo0o00/echo",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/conversations_view.webp",
+      video: "",
+    },
+    {
       title: "RentiFul",
       href: "https://github.com/Leo0o00/RentiFul",
       dates: "Apr 2026",
